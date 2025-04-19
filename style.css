@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+.container{
+    background-image: url(./ubuntu-logo-magenta-3840x2160-18138.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+    
+}
+nav{
+    display: flex;
+    padding: 20px;
+    
+   
+}
+nav>h2{
+    width: 30%;
+    color: rgb(236, 199, 163);
+}
+.menus{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+a{
+    color: rgb(240, 184, 115);
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+    border-color: transparent;
+}
+a:hover{
+    color: purple;
+    background-color: rgb(240, 184, 115);
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+.box1{
+    width: 50%;
+    height: 500px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    justify-content: center;
+    
+}
+
+h2{
+    
+    color: beige;
+    font-size: 40px;  
+   font-family: "Boldonse", system-ui;
+   font-weight:600; 
+}
+h5{
+    width: 100px;
+    color: beige;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+}
+.python{
+    width: 140px;
+}
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200px;
+    color:rgb(240, 184, 115);
+    font-size: 25px;
+}
+
+h5>marquee{
+    width: 50px;
+   color: rgb(240, 184, 115);
+   scale: 15s;
+    
+}
+
+h1{
+    color: rgb(240, 184, 115);
+    font-size: 70px;
+}   
+.box2>img{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    border-top-style:double;
+    box-shadow: 0px 0px 10px 10px;
+
+}
+
+.box2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1{
+    background: linear-gradient(to right,orange,purple);
+
+}
+.container1>h2{
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px black);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px -5px 5px black;
+    margin-bottom: 20px;
+}
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 5px -5px 5px black;
+}
+.con1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+}
+.con1>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: dashed;
+    padding: 2px;
+}
+.con1>span{
+    color: rgb(42, 22, 60);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all;
+    
+}
+.container2{
+    background: linear-gradient(to right, rgb(153, 153, 149),rgb(50, 48, 48));
+    box-shadow: 0px -5px 5px black;
+    padding: 50px;
+}
+.container2>h2{
+    color: rgb(10, 45, 45);
+    text-align: center;
+    margin-bottom: 20px;
+}   
+.con3{
+     display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+}
+.con2>img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 10px white);
+}
+.con2{
+    width:200px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container2>h2{
+    filter: drop-shadow(0px 0px 5px white);
+}
+/* .container3{
+    background: linear-gradient(to right,orange,rgb(230, 177, 55));
+    box-shadow: 0px -5px 10px black;
+}.container3>h2{
+    text-align: center;
+    color: black;
+    filter: drop-shadow(0px 0px 5px rgb(126, 120, 120));
+    
+}
+.edu1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+ 
+}
+.edu1>h2{
+    padding: 20px;
+    border: 5px solid rgb(121, 32, 32); 
+    margin: 10px;
+    border-radius: 30px 0px 30px 0px;
+    text-align: center;
+    background: linear-gradient(rgb(208, 154, 53),rgb(126, 100, 6));  
+} */
+.photo>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 10px rgb(225, 92, 9));
+}
+.photo>.twit{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    background-color: white;
+}
+.photo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    
+}
+h5{
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 550px;
+    background: linear-gradient(orange,red);
+
+} 
+.container4{
+    background:linear-gradient(to right,rgb(54, 16, 49),rgb(90, 4, 60));
+    text-align: center;
+    padding-top: 50px;
+}
+.container4>h2{
+    color: bisque;
+    filter: drop-shadow(0px 0px 5px black);
+
+}
